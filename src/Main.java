@@ -16,9 +16,16 @@ public class Main
 
 		double product = number1 * number2;
 		System.out.printf("The product of both numbers is: %f", product);
-		
+
 		double sum= number1 + number2;
 		System.out.printf("\nThe sum of both numbers is: %f", sum);
-	
+
+		double diffrance;
+		if (number1 > number2)
+			diffrance = number1 - number2;
+		else 
+			diffrance = number2 - number1;
+
+		System.out.printf("\nThe diffrance of both numbers is: %f", diffrance);
 	}
 }
