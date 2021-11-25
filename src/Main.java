@@ -19,6 +19,8 @@ public class Main
 		
 		double sum= number1 + number2;
 		System.out.printf("The sum of both numbers is: %f", sum);
+		
+		//Sum is Added in next commit
 	
 	}
 }
