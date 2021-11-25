@@ -27,5 +27,7 @@ public class Main
 			diffrance = number2 - number1;
 
 		System.out.printf("\nThe diffrance of both numbers is: %f", diffrance);
+		// added diffrenece
+		// added comment
 	}
 }
